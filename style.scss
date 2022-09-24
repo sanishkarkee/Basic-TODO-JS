@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 10px;
+  border: 1px solid #bcb9b8;
+  width: 40%;
+  margin: auto;
+  .input {
+    width: 87%;
+    height: 20px;
+  }
+  .btn {
+    width: 50px;
+    height: 25px;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  li {
+    color: red;
+  }
+  a {
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+  #error {
+    color: red;
+    font-size: 14px;
+  }
+}
